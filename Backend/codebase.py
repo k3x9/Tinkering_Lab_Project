@@ -3,7 +3,7 @@ import pandas as pd
 from dimod import Binary, ConstrainedQuadraticModel, quicksum
 from dwave.system import LeapHybridCQMSampler
 import numpy as np
-from code_1 import Graph,graph_init,print_matrix
+from Data_preprocessing import Graph,graph_init,print_matrix
 from dwave.system import DWaveSampler, EmbeddingComposite, FixedEmbeddingComposite
 from minorminer.busclique import find_clique_embedding
 import numpy as np

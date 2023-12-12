@@ -14,5 +14,11 @@
         "city_pairs": {"selected": false, "score": 0},
         "ostd": {"selected": false, "score": 0},
         "stopover": {"selected": false, "score": 0}
+    },
+
+    "Flight Connection":{
+        "Max departure delay": {"selected": false, "score": 0},
+        "Min Connection Time": {"selected": false, "score": 0},
+        "Max Connection Time": {"selected": false, "score": 0}
     }
 }

@@ -166,10 +166,23 @@ def graph_init():
     for index,row in inv.iterrows():
         g.add_edge(row['DepartureAirport'],row['ArrivalAirport'],index)
 
-
+    g.gen_path_pnr_compatibility_matrix()
     return g
 
+def main():
+    g = graph_init()
+    g.print_graph()
+    print()
+    print_matrix(g.city_mapping)
+    print()
+    print_matrix(g.path_mapping)
 
+    print()
+    
+    print()
+    print_matrix(g.path_city_compatibility)
+    print()
+    print_matrix(g.path_pnr_compatibility)
     
 
 
