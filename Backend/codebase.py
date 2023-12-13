@@ -59,3 +59,5 @@ def cqm_formulation():
             
         cqm.add_constraint( (quicksum(F(j)*X[i,j] for j in range(M)))<=72)
 cqm_formulation()
+
+
